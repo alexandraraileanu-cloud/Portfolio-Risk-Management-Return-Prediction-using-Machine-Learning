@@ -1,15 +1,14 @@
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)
 [![scikit-learn](https://img.shields.io/badge/scikit--learn-1.0+-orange.svg)](https://scikit-learn.org/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-(Please, have in consideration that this project is written in Spanish)
----
 
 ## 🎯 Executive Summary
 
 This project applies advanced **Machine Learning techniques** to predict portfolio returns and manage investment risk for a diversified portfolio of 10 US equities. The system achieved a **Root Mean Squared Error (RMSE) of 1.750%** using Random Forest, outperforming 9 other algorithms evaluated.
 
 **Key Achievement:** Sharpe Ratio of **1.28**, indicating strong risk-adjusted returns.
-
+(Please have in consideration that this project is written in Spanish)
+---
 ---
 
 ## 💼 Why This Matters for Investment Banking
