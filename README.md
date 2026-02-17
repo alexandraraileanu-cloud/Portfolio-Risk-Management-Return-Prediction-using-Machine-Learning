@@ -4,6 +4,12 @@
 
 #  Portfolio Return Prediction & Risk Management using Machine Learning
 
+##  📄 Project Documentation
+
+A full technical and academic explanation of this project is available in Spanish:
+
+ Download the TFM (PDF): [TFM_IA_Alexandra.pdf](./TFM_IA_Alexandra.pdf)
+
 This project develops a complete Machine Learning system to **predict portfolio returns** and **analyze investment risk**, combining financial theory with data science techniques.
 
 >  Important: The project (notebook, comments, and report) is written in **Spanish**, but this README is provided in English for accessibility.
