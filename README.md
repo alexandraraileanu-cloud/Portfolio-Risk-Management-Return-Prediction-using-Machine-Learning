@@ -2,14 +2,16 @@
 [![scikit-learn](https://img.shields.io/badge/scikit--learn-1.0+-orange.svg)](https://scikit-learn.org/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-## 🎯 Executive Summary
+##  Executive Summary
 
 This project applies advanced **Machine Learning techniques** to predict portfolio returns and manage investment risk for a diversified portfolio of 10 US equities. The system achieved a **Root Mean Squared Error (RMSE) of 1.750%** using Random Forest, outperforming 9 other algorithms evaluated.
 
-**Key Achievement:** Sharpe Ratio of **1.28**, indicating strong risk-adjusted returns.
+Key Achievement:** Sharpe Ratio of 1.28, indicating strong risk-adjusted returns.
+(Please, have in consideration that this project is written in Spanish)
+
 ---
 
-## 💼 Why This Matters for Investment Banking
+##  Why This Matters for Investment Banking
 
 This project demonstrates:
 
@@ -22,7 +24,7 @@ This project demonstrates:
 
 ---
 
-## 📊 Portfolio Composition
+##  Portfolio Composition
 
 The portfolio includes **10 blue-chip stocks** across 5 sectors for optimal diversification:
 
@@ -38,7 +40,7 @@ The portfolio includes **10 blue-chip stocks** across 5 sectors for optimal dive
 
 ---
 
-## 🔬 Methodology
+##  Methodology
 
 ### 1. Data Generation
 - **1,260 trading days** (≈5 years) of synthetic price data
@@ -68,7 +70,7 @@ Evaluated **10 regression algorithms**:
 
 ---
 
-## 📈 Results
+##  Results
 
 ### Model Performance
 
@@ -115,7 +117,7 @@ Evaluated **10 regression algorithms**:
 
 ---
 
-## 💡 Key Findings
+##  Key Findings
 
 1. **Ensemble methods outperform** linear models, indicating important non-linear relationships
 2. **Volatility is the strongest predictor** of future returns, confirming established financial theory
@@ -125,7 +127,7 @@ Evaluated **10 regression algorithms**:
 
 ---
 
-## 🛠️ Technical Stack
+##  Technical Stack
 
 - **Language**: Python 3.8+
 - **Data Processing**: pandas, NumPy
@@ -137,7 +139,7 @@ Evaluated **10 regression algorithms**:
 ---
 
 
-## 🚀 How to Run
+##  How to Run
 
 ### Prerequisites
 ```bash
@@ -180,7 +182,7 @@ The notebook includes 15+ professional visualizations:
 
 ---
 
-## 🎓 Academic Rigor
+##  Academic Rigor
 
 This project follows the **CRISP-DM methodology** (Cross-Industry Standard Process for Data Mining):
 1. Business Understanding
@@ -194,7 +196,7 @@ This project follows the **CRISP-DM methodology** (Cross-Industry Standard Proce
 
 ---
 
-## ⚠️ Limitations & Disclaimers
+##  Limitations & Disclaimers
 
 1. **Synthetic Data**: While calibrated to real market statistics, does not capture all extreme events
 2. **Short Horizon**: Daily predictions have high noise; longer horizons may improve predictability
@@ -206,7 +208,7 @@ This project follows the **CRISP-DM methodology** (Cross-Industry Standard Proce
 
 ---
 
-## 🔮 Future Enhancements
+##  Future Enhancements
 
 1. **Alternative Data**: Incorporate news sentiment, social media, macroeconomic indicators
 2. **Deep Learning**: Explore LSTM, Transformers for sequence modeling
@@ -218,7 +220,7 @@ This project follows the **CRISP-DM methodology** (Cross-Industry Standard Proce
 
 ---
 
-## 📚 References
+## References
 
 1. Markowitz, H. (1952). "Portfolio Selection". *Journal of Finance*
 2. Black, F. & Scholes, M. (1973). "The Pricing of Options and Corporate Liabilities"
