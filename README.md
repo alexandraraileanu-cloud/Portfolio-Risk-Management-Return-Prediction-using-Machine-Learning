@@ -38,6 +38,97 @@ The system uses **historical financial data (synthetic but statistically realist
 ---
 
 ##  Project Structure
+├── TFM_Portfolio_Alexandra.ipynb   # Main Jupyter Notebook (analysis + models)
+├── TFM_IA_Alexandra.pdf            # Final report (full explanation)
+└── README.md                        # Project documentation
+
+---
+
+##  Dataset
+
+The dataset was **synthetically generated** to replicate real market behavior using:
+
+- 10 large-cap US companies
+- 5 economic sectors (Tech, Banking, Healthcare, Energy, Consumer)
+- 5 years of daily data (~1260 trading days)
+
+This approach ensures:
+
+- Full reproducibility
+- Statistical realism
+- No external API dependency
+
+---
+
+##  Tech Stack
+
+- **Python 3**
+- **pandas** – data manipulation
+- **NumPy** – numerical computations
+- **scikit-learn** – machine learning models
+- **matplotlib & seaborn** – data visualization
+
+---
+
+##  Machine Learning Models Used
+
+The project evaluates multiple regression algorithms, including:
+
+- Linear Regression
+- Ridge & Lasso
+- KNN
+- Decision Trees
+- Random Forest  (final model)
+- Gradient Boosting
+- Extra Trees
+
+Models are compared using:
+
+- RMSE
+- MAE
+- R² Score
+
+---
+
+##  Methodology
+
+The project follows the **CRISP-DM framework**:
+
+1. Business Understanding  
+2. Data Understanding  
+3. Data Preparation  
+4. Modeling  
+5. Evaluation  
+6. (Simulated) Deployment  
+
+---
+
+##  Financial Metrics Implemented
+
+To evaluate portfolio performance:
+
+- **Sharpe Ratio** → risk-adjusted return
+- **Value at Risk (VaR 95%)** → expected worst loss
+- **Maximum Drawdown** → largest historical drop
+
+---
+
+##  Results
+
+- The final model achieves a prediction error (RMSE) of approx **1.75%**
+- The system is capable of identifying patterns in market behavior
+- It provides **actionable insights for portfolio allocation**
+
+---
+
+##  Disclaimer
+
+This project is for **educational purposes only**.
+
+Financial markets are inherently unpredictable, and this system **does not guarantee profits**.  
+It should be used as a complementary tool alongside fundamental analysis and proper risk management.
+
+
 
 ## References
 
